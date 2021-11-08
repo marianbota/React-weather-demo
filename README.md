@@ -14,3 +14,12 @@ Requirements:
 - [ ] render components to root
 - [ ] function component
 - [ ] [jsx](https://reactjs.org/docs/introducing-jsx.html)
+- [ ] what is a fragment
+- [ ] state and state management
+- [ ] object destructuring
+- [ ] props
+- [ ] inserting javascript code in jsx
+- [ ] reuse components
+- [ ] list child (unique) key prop - used for efficient rendering
+- [ ] binding input to prop
+- [ ] refhook
