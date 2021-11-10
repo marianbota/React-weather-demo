@@ -23,3 +23,9 @@ Requirements:
 - [ ] list child (unique) key prop - used for efficient rendering
 - [ ] binding input to prop
 - [ ] refhook
+- [ ] state values (never change directly)
+- [ ] state update functions
+- [ ] effects
+- [ ] effect dependency
+- [ ] effect function
+- [ ] 
