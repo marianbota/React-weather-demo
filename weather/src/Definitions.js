@@ -1,3 +1,6 @@
+//NOTE components can have css files
+import './Definitions.css';
+
 function Definitions() {
     return(
         <>
