@@ -36,11 +36,14 @@ Short project to get weather information in a basic react app
 ## Concept to demonstrate
 
 - [ ] reach CLI
-- [ ] index.html and root div
-- [ ] render components to root
-- [ ] function component
-- [ ] [jsx](https://reactjs.org/docs/introducing-jsx.html)
-- [ ] what is a fragment
+- [x] index.html and root div
+- [x] render components to root
+- [x] [strict mode](https://reactjs.org/docs/strict-mode.html)
+- [x] [function/class components](https://reactjs.org/docs/components-and-props.html)
+- [x] [jsx](https://reactjs.org/docs/introducing-jsx.html)
+- [x] [what is a fragment](https://reactjs.org/docs/fragments.html)
+- [ ] Where do you store services ?
+- [ ] How do you make backend calls ?
 - [ ] state and state management
 - [ ] object destructuring
 - [ ] props
