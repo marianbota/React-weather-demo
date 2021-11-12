@@ -25,7 +25,7 @@ Short project to get weather information in a basic react app
 
 4. In the console, Run the app
 
-   ``npm run``
+   ``npm start``
 
 
 5. In the browser, navigate to http://localhost:3000/ and see the app running
