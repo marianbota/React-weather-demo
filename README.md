@@ -43,8 +43,8 @@ Short project to get weather information in a basic react app
 - [x] [jsx](https://reactjs.org/docs/introducing-jsx.html)
 - [x] [what is a fragment](https://reactjs.org/docs/fragments.html)
 - [x] Services can go in a separate *.js
-- [x] You can make backend calls with fetch(built in), ajax(jquery), axios
-- [x] You can define models as classes. If you want typechecking you should use react with typescript.
+- [x] You can make backend calls with [fetch(built in)](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch), [ajax(jquery)](https://api.jquery.com/jquery.ajax/), [axios](https://axios-http.com/)
+- [x] You can define models as classes. If you want typechecking you should use react with [typescript](https://www.typescriptlang.org/).
 - [ ] state and state management
 - [ ] object destructuring
 - [ ] props
