@@ -1,6 +1,6 @@
 //NOTE importing nested components
-import WeatherScreen from './WeatherScreen'
-import Definitions from "./Definitions";
+import WeatherScreen from './components/WeatherScreen'
+import Definitions from "./components/Definitions";
 
 //NOTE: this is the app component.
 //NOTE: a function can be a component.
