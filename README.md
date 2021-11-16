@@ -35,18 +35,22 @@ Short project to get weather information in a basic react app
 
 ## Concept to demonstrate
 
-- [ ] reach CLI
+- [x] reach CLI 
+- [x] ```npx create-react-app appName```
+- [x] ```npm start```
 - [x] index.html and root div
 - [x] render components to root
 - [x] [strict mode](https://reactjs.org/docs/strict-mode.html)
+- [x] React Developer Tools (browser extension)
 - [x] [function/class components](https://reactjs.org/docs/components-and-props.html)
 - [x] [jsx](https://reactjs.org/docs/introducing-jsx.html)
 - [x] [what is a fragment](https://reactjs.org/docs/fragments.html)
+- [ ] export default ??
 - [x] Services can go in a separate *.js
 - [x] You can make backend calls with [fetch(built in)](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch), [ajax(jquery)](https://api.jquery.com/jquery.ajax/), [axios](https://axios-http.com/)
 - [x] You can define models as classes. If you want typechecking you should use react with [typescript](https://www.typescriptlang.org/).
 - [ ] How do you do [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection)? (For example configuration settings)
-- [ ] state and state management
+- [x] state and state management
 - [ ] object destructuring
 - [ ] props
 - [ ] inserting javascript code in jsx
@@ -54,9 +58,8 @@ Short project to get weather information in a basic react app
 - [ ] list child (unique) key prop - used for efficient rendering
 - [ ] binding input to prop
 - [ ] refhook
-- [ ] state values (never change directly)
-- [ ] state update functions
+- [x] state values (never change directly)
+- [x] state update functions
 - [ ] effects
 - [ ] effect dependency
 - [ ] effect function
-- [ ] 
