@@ -63,3 +63,4 @@ Short project to get weather information in a basic react app
 - [ ] effects
 - [ ] effect dependency
 - [ ] effect function
+- [ ] error landing page
