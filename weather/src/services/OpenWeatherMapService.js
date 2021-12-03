@@ -1,4 +1,4 @@
-const WeatherService = {
+ const WeatherService = {
     GetForecast: function GetForecast(city) {
         const requestOptions = {
             method: 'GET',
