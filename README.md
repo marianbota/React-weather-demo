@@ -46,17 +46,19 @@ Short project to get weather information in a basic react app
 - [x] You can make backend calls with [fetch(built in)](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch), [ajax(jquery)](https://api.jquery.com/jquery.ajax/), [axios](https://axios-http.com/)
 - [x] You can define models as classes. If you want typechecking you should use react with [typescript](https://www.typescriptlang.org/).
 - [ ] How do you do [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection)? (For example configuration settings)
-- [ ] state and state management
+- [x] state and state management
+- [x] state values (never change directly)
+- [x] state update functions
+- [x] bind inputs to state
+- [x] javascript spread operator (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 - [ ] object destructuring
 - [ ] props
-- [ ] inserting javascript code in jsx
+- [x] inserting javascript code in jsx
 - [ ] reuse components
 - [ ] list child (unique) key prop - used for efficient rendering
 - [ ] binding input to prop
 - [ ] refhook
-- [ ] state values (never change directly)
-- [ ] state update functions
-- [ ] effects
+- [x] [effects] (https://reactjs.org/docs/hooks-effect.html) 
 - [ ] effect dependency
 - [ ] effect function
 - [ ] 
