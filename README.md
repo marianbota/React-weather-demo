@@ -4,8 +4,10 @@ Short project to get weather information in a basic react app
 
 ## Requirements: 
 1. Node.js  https://nodejs.org/en/
-2. npx create-react-app weather
+2. `npx create-react-app weather`
 3. account on https://rapidapi.com/community/api/open-weather-map (free for up to 10 calls/m)
+4. [install bootstrap](https://create-react-app.dev/docs/adding-bootstrap/) with `npm install bootstrap` and add the import statement in `index.js`
+5. install uuid library with `npm install uuid`
   
 ## How to get started
 1. In the console, clone repo with
@@ -36,8 +38,8 @@ Short project to get weather information in a basic react app
 ## Concept to demonstrate
 
 - [x] reach CLI 
-- [x] ```npx create-react-app appName```
-- [x] ```npm start```
+- [x] `npx create-react-app appName`
+- [x] `npm start`
 - [x] index.html and root div
 - [x] render components to root
 - [x] [strict mode](https://reactjs.org/docs/strict-mode.html)
@@ -53,17 +55,16 @@ Short project to get weather information in a basic react app
 - [x] state and state management
 - [x] state values (never change directly)
 - [x] state update functions
-- [x] bind inputs to state
-- [x] javascript spread operator (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
-- [ ] object destructuring
-- [ ] props
-- [x] inserting javascript code in jsx
-- [ ] reuse components
-- [ ] list child (unique) key prop - used for efficient rendering
-- [ ] binding input to prop
-- [ ] refhook
-- [x] [effects] (https://reactjs.org/docs/hooks-effect.html) 
-- [ ] effect dependency
-- [ ] effect function
+- [x] javascript [spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+- [x] object destructuring
+- [x] props
+- [x] inserting javascript code in jsx. The code in between brackets {} is javascript code.
+- [x] reuse components
+- [x] [key props](https://reactjs.org/docs/lists-and-keys.html) 
+- [x] binding input to prop
+- [x] refhook
+- [x] [effects](https://reactjs.org/docs/hooks-effect.html) 
+- [x] effect dependency
+- [x] effect function
 - [ ] error landing page
 - [ ] integration in Wordpress

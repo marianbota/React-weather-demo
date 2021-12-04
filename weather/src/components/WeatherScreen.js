@@ -1,8 +1,9 @@
 import WeatherService from "../services/OpenWeatherMapService";
 import Forecast from "../models/Forecast";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
-function WeatherScreen() {
+//NOTE initialCity is a prop
+function WeatherScreen({initialCity}) {
     useEffect(()=>{
         //NOTE this effect is executed on page load
         updateForecast();
@@ -10,14 +11,17 @@ function WeatherScreen() {
     //NOTE the square brackets indicate that the efect function will be called only once when the component is mounted
     [])
 
+    const cityNameRef = useRef();
+
+    //NOTE when the state changes the whole component is redended a again
+    //NOTE object destructuring example
     let [state, setState] = useState({
-        forecastData: new Forecast(),
-        cityName: 'Sibiu'
+        forecastData: new Forecast()
     });
 
     function updateForecast() {
         //NOTE city name should be taken as a ui input
-        WeatherService.GetForecast(state.cityName)
+        WeatherService.GetForecast(cityNameRef.current.value)
             .then( result => {
                 let forecast = new Forecast(result)
                 setState({...state, forecastData: forecast})
@@ -26,22 +30,19 @@ function WeatherScreen() {
             .catch( error => console.error(error) );            
     }
 
-    function updateCity(event) {
-        setState({...state, cityName: event.target.value})
-    }
-
     return (
-        <>
-            <h3>Weather report</h3>
-            <input defaultValue={state.forecastData.city} onBlur={updateCity}/>
+        <div className="border p-3 me-3 mb-3">
+            <input defaultValue={initialCity} ref={cityNameRef}/>
             <button onClick={updateForecast}>Update</button>
-            <p>{state.forecastData.country} {state.forecastData.city} {state.forecastData.condition}</p>
-            <p>Min: {state.forecastData.min}</p>
-            <p>Max: {state.forecastData.max}</p>
-            <p>Feels like: {state.forecastData.feel}</p>
-            <p>Wind speed: {state.forecastData.windSpeed}</p>
-            <p>Visibility: {state.forecastData.visibility}</p>
-        </>
+            <ul className="mt-2">
+                <li>{state.forecastData.country} {state.forecastData.city} {state.forecastData.condition}</li>
+                <li>Min: {state.forecastData.min}</li>
+                <li>Max: {state.forecastData.max}</li>
+                <li>Feels like: {state.forecastData.feel}</li>
+                <li>Wind speed: {state.forecastData.windSpeed}</li>
+                <li>Visibility: {state.forecastData.visibility}</li>
+            </ul>
+        </div>
     );
 }
 
