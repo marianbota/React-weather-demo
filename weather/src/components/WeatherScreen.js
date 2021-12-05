@@ -20,7 +20,6 @@ function WeatherScreen({initialCity}) {
     });
 
     function updateForecast() {
-        //NOTE city name should be taken as a ui input
         WeatherService.GetForecast(cityNameRef.current.value)
             .then( result => {
                 let forecast = new Forecast(result)
