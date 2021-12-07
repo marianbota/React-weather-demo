@@ -10,7 +10,7 @@ const WeatherService = {
         const appKey = configData.WeatherService.appKey;
         const url = configData.WeatherService.url;
 
-        return fetch(`${url}?q=${city}&appid=${appKey}`, requestOptions)
+        return fetch(`${url}?q=${city}&units=${configData.WeatherService.measurementSystem}&appid=${appKey}`, requestOptions)
             .then(response => response.json());
     }
 }

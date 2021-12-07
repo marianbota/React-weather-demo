@@ -1,6 +1,10 @@
 {
     "WeatherService": {
         "appKey": "",
+        "measurementSystem": "metric",
         "url": "https://api.openweathermap.org/data/2.5/weather"
-    } 
+    },
+    "Driving": {
+        "measurementSystem": "imperial"
+    }
 }
