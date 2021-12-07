@@ -1,6 +1,6 @@
 class Forecast {
     constructor(jsonData) {
-        this.country = jsonData?.country ?? "";
+        this.country = jsonData?.sys?.country ?? "";            
         this.city = jsonData?.name ?? "";
         this.condition = jsonData?.weather[0].description ?? "";
         this.min = jsonData?.main.temp_min ?? "";
