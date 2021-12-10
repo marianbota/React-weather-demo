@@ -33,7 +33,7 @@ Short project to get weather information in a basic react app
 5. In the browser, navigate to http://localhost:3000/ and see the app running
 
 
-6. HAVE FUN !!! :D
+6. HAVE FUN !! :D
 
 ## Concept to demonstrate
 
